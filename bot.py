@@ -17,7 +17,7 @@ class Bot:
             
             print(f"Current position: ({self.x}, {self.y})")
 
-bot = Bot(1, 1)
+bot = Bot(0, 0)
 target_x, target_y = 3, 3
 bot.move_towards(target_x, target_y)
 print(f"Final position: ({bot.x}, {bot.y})")
